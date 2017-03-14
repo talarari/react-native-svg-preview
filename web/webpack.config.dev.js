@@ -12,7 +12,7 @@ module.exports = {
     loaders: [
       {
         test: /\.js$/,
-        exclude: /node_modules/,
+        exclude: /node_modules\/(?!(react-native-svg)\/).*/,
         loaders: [
           'react-hot',
           'babel-loader?cacheDirectory=true'

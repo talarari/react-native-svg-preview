@@ -13,6 +13,7 @@ import {
 } from 'react-native';
 
 import { Touchable } from '../../components';
+import Rect from '../../components/Rect';
 
 export default class App extends Component {
   constructor() {
@@ -45,6 +46,7 @@ export default class App extends Component {
             Alt+Cmd+I for dev menu
           </Text>
         </Touchable>
+        <Rect/>
       </View>
     );
   }
